@@ -8,67 +8,90 @@ data on how ships are desinged:
 please note, that do to desing of the crafts, both 'drones' and 'hiveships' have diffrent requirements for many things
 bridge:
 	hiveship:
+	    one cetner bridge. seems rather flat? lots of green lights, and tends to go in a circle around. can be oddly shaped
 	drone:
+	    one or 2 little dots of green light, facing forwards. they tend to be on center, but when they are not, they are smetrical. can have a bit of houseing, unless its ubstructed by armor
 engions:
 	hiveship:
+	    most of the unarmerd back of the ships are coverd in engines.
 	drone:
+	    --
 outer armor:
 	hiveship:
+	    large green armor on the sides of the ship, compleatly covering the sides. rarely on the front, and only then used to elevate positions of the mounts and only very sparcly. also, rarely on the back as well
 	drone:
+	    --
 mount positions:
 	hiveship:
+	    mounts seem spread apart, with the bigger guns in the center, and the smaller ones in the outer ponits of the craft? im unsure...
 	drone:
+	    --, however, there is one ship with its larger mount at the front of the craft.
 unarmerd sections:
 	hiveship:
+	    im unsure how to exsplan. plz hold...
+	    ok, so, most of the craft is coverd in this 'grey' coloar, that looks a lot less like armor then the rest of the craft. but i think it is, just not the armor on the sides.
+	    this armor tends to be more prealvent in the center, but always feels like a a a a a.
+	    i cant exaplane. its were the green armor is not.
 	drone:
+	    --
 hangers:
 	hiveship:
+	    on the front of the craft, always. also, sourounded by unarmerd sectrions. tend to be semetrical. built into the craft, built so the hanger entrence is on the very edge of the outline of the craft.
 	drone:
-
+        as drone desinges can differ from hiveships, i can be more creative here. but proboly should not, as doing so can cause me some issues latter, because the ships wont look like one group.
 
 ships i want:
 hiveShips:
-	captials:
-		a): the hive carrer.
-			status: started. in notbook.
+	capitals:
+		a): the hive carrier.
+			status: started. in notebook.
 			-NOTE: i need to redo the base outline. after some consideration, it does not match the rest of the sub-faction
-			battle carrer.
+			battle carrier.
 			6 fighter bays (3 vill)
 			1 LEM, 4 MEM, 8 SEM
-			system: reserve deployment, or high energy wepons, or a mobility system
-			drones: 
+			system: reserve deployment, or high energy weapons, or a mobility system
+			drones: ? carrier drone,
 			NOTES:
 				I have stoped develupment into this ship for the time being. i need to imporve my ability to draw and pixle art before i will have the ability or the skill to handle this task. however, a partly built ship does exsist for it.
-			
-	crusire:
+
+        b): the hive battlecarrer.
+            status: not started.
+
+            battle carrier.
+            2 - 3 fighter bays, (2 - 3 vill)
+            ? LEM, ?MEM, ?SEM
+            system: high energy weapons maybe? maybe something more crazy???
+            drones: 1 Advanced Gunship Destroyer.
+
+	cruiser:
 		a): the hive hular.
 			status: not started. in notebook
-			cargo carrer.
-			2 figher bays (2 vill)
+			cargo carrier.
+			2 fighter bays (2 vill)
 			1 MEM, 4 SEM
-			system: high energy wepons?
-			drones: swapable. between cargo drone, fuel drone, crew drone.
+			system: high energy weapons?
+			drones: swappable. between cargo drone, fuel drone, crew drone.
 	destroyer:
-	frigets:
+	frigates:
 drones:
-	captials:
-	crusire:
+	capitals:
+	cruiser:
 	destroyer:
 		a): Advanced Gunship Destroyer.
 			status: not started. in notebook.
 			gunship.
 			3 MEM, 2? SEM.
 			system: limited P - Jump. (or slow P Jump)
-	frigets:
-		a): carrer drone.
+	frigates:
+		a): carrier drone.
 			status: not started. in notebook.
-			carrer drone.
+			carrier drone.
 			1 fighter bay. (0 vill)
 			1 SEM?
 			system: slow recall, or targeting feed, or time warp
 		b) cargo drone.
 			status: not started. in notebook.
-			varent of: cargo drone
+			variant of: cargo drone
 			cargo drone.
 			1 or 2 SEM?
 			system: plasma burn
@@ -84,4 +107,18 @@ drones:
 			cargo drone.
 			1 or 2 SEM?
 			system: bio-flares.
-		
+        e) defence drone.
+            status: not started.
+            heavy shield drone.
+            1 - 3 SEM? or maybe 1 MEM but with a PD weapon of some sort?
+            system: fortress shield. (with maybe 180 coverage at most? maybe less?)
+        f) fighter carrier drone.
+            status: not started. might never start
+            carrier drone
+            1 fighter bay (0 vill)
+            system: ether some type of 'jump fighter' thing, or maybe I dont know, something???
+        g) EMP drone.
+            status not started.
+            EMP drone.
+            1 - 3 SEM.
+            system: EMP arc emitter.
