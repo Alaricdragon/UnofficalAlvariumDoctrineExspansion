@@ -1,0 +1,87 @@
+notes:
+	I have started to look at what is required to start to produce ships. and im going to be honest: the battleship i want makes me nervus.
+	as a resalt, i think im going to need to do 2 things: 
+	1: i am going to have to build a diffrent drone first. im going to have to try and pixle art some of it, ebcause i fear i will need to, to beable to get the detales right.
+	2: I am going to have to go onto the discord, and see if i can learn anything about spriting. i dont know what im doing help
+
+data on how ships are desinged:
+please note, that do to desing of the crafts, both 'drones' and 'hiveships' have diffrent requirements for many things
+bridge:
+	hiveship:
+	drone:
+engions:
+	hiveship:
+	drone:
+outer armor:
+	hiveship:
+	drone:
+mount positions:
+	hiveship:
+	drone:
+unarmerd sections:
+	hiveship:
+	drone:
+hangers:
+	hiveship:
+	drone:
+
+
+ships i want:
+hiveShips:
+	captials:
+		a): the hive carrer.
+			status: started. in notbook.
+			-NOTE: i need to redo the base outline. after some consideration, it does not match the rest of the sub-faction
+			battle carrer.
+			6 fighter bays (3 vill)
+			1 LEM, 4 MEM, 8 SEM
+			system: reserve deployment, or high energy wepons, or a mobility system
+			drones: 
+			NOTES:
+				I have stoped develupment into this ship for the time being. i need to imporve my ability to draw and pixle art before i will have the ability or the skill to handle this task. however, a partly built ship does exsist for it.
+			
+	crusire:
+		a): the hive hular.
+			status: not started. in notebook
+			cargo carrer.
+			2 figher bays (2 vill)
+			1 MEM, 4 SEM
+			system: high energy wepons?
+			drones: swapable. between cargo drone, fuel drone, crew drone.
+	destroyer:
+	frigets:
+drones:
+	captials:
+	crusire:
+	destroyer:
+		a): Advanced Gunship Destroyer.
+			status: not started. in notebook.
+			gunship.
+			3 MEM, 2? SEM.
+			system: limited P - Jump. (or slow P Jump)
+	frigets:
+		a): carrer drone.
+			status: not started. in notebook.
+			carrer drone.
+			1 fighter bay. (0 vill)
+			1 SEM?
+			system: slow recall, or targeting feed, or time warp
+		b) cargo drone.
+			status: not started. in notebook.
+			varent of: cargo drone
+			cargo drone.
+			1 or 2 SEM?
+			system: plasma burn
+		c) fuel drone.
+			status: not started. in notebook.
+			varent of: cargo drone
+			cargo drone.
+			1 or 2 SEM?
+			system: plasma jets
+		d) personell drone.
+			status: not started. in notebook.
+			varent of: cargo drone
+			cargo drone.
+			1 or 2 SEM?
+			system: bio-flares.
+		

@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UnofficalAlvariumDoctrineExpansion">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="archive" name="UnofficalAlvariumDoctrineExpansion.jar" />
+  </artifact>
+</component>
