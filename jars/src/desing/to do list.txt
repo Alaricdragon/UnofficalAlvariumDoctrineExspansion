@@ -4,6 +4,23 @@ notes:
 	1: i am going to have to build a diffrent drone first. im going to have to try and pixle art some of it, ebcause i fear i will need to, to beable to get the detales right.
 	2: I am going to have to go onto the discord, and see if i can learn anything about spriting. i dont know what im doing help
 
+note on creating a ship:
+    the 'mod dictionary' should NOT likely be the xhan empire mod link it to my own mod, and make sure it loads afterwards.
+    'variants' are required for custom ships to spawn in NPC fleets. it is not a variant for player????
+    also, try to keep the bounding box with as few parts as possable.
+    link: https://starsector.fandom.com/wiki/Intro_to_Modding
+
+notes on creating a weapon:
+    wepons are made of 3 parts:
+        1) the static part of the gun
+        2) the moving part of the gun
+        3) the glow of the gun
+    each needs a separate sprite.
+
+notes on fighters:
+    fighters are basicly ships. everythings the same.
+    if i want the wepon on the fighter to be visable, i should make it a not 'hidden' wepon. if not, i should most certenly not do that.
+
 data on how ships are desinged:
 please note, that do to desing of the crafts, both 'drones' and 'hiveships' have diffrent requirements for many things
 bridge:
@@ -39,7 +56,14 @@ hangers:
 	    on the front of the craft, always. also, sourounded by unarmerd sectrions. tend to be semetrical. built into the craft, built so the hanger entrence is on the very edge of the outline of the craft.
 	drone:
         as drone desinges can differ from hiveships, i can be more creative here. but proboly should not, as doing so can cause me some issues latter, because the ships wont look like one group.
-
+groves:
+    hiveship:
+        on the innor grew parts of the ship, there are a lot of, 'groves'. it took forever for me to realize what they are..
+        they are wrinkles. like on a really old mans face. I dont know how to feel about this.
+        but it does mean one thing: there is a 'base' color here, and the 'wrinkles' that take up most of the space make up the texture.
+        i will have to try this out hopefully.
+    drone:
+        --
 ships i want:
 hiveShips:
 	capitals:

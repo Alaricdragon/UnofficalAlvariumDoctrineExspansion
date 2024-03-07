@@ -1,10 +1,13 @@
 {
-	"id":"Unoffical Alvarium Doctrine Exspansion", # internal id
+	"id":"Zz_Unoffical Alvarium Doctrine Exspansion", # internal id
 	"name":"Unoffical Alvarium Doctrine Exspansion", # displayed to the player
 	"author":"Alricdragon",
 	"version":"0.0",
 	"description":"an exspansion for Peplat's mod 'The Xhan Empire'. this mod focuses on exspanding the wonderfull already exsisting set of ships called the 'Alvarium Doctrine'",
 	"gameVersion":"0.97a-RC10",
+	"dependencies": [
+			{"id": "XhanEmpire", "name": "Xhan Empire"}
+		],
 	#"jars":["jars/marketRetrofit.jar"],
 	#"modPlugin":"data.scripts.marketReplacer_startup",
 }

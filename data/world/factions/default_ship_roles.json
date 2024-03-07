@@ -1,0 +1,69 @@
+{
+  "combatSmallForSmallFleet": {
+  },
+  "combatSmall": {
+  },
+  "combatMedium": {
+  },
+  "combatLarge": {
+  },
+  "combatCapital": {
+  },
+  "combatFreighterSmall": {
+  },
+  "combatFreighterMedium": {
+  },
+  "combatFreighterLarge": {
+  },
+  "civilianRandom": {
+  },
+  "carrierSmall": {
+	"UADE_Drone_Carrier_001_variant": 10,
+  },
+  "carrierMedium": {
+  },
+  "carrierLarge": {
+  },
+  "phaseSmall": {
+  },
+  "phaseMedium": {
+  },
+  "phaseLarge": {
+  },
+  "phaseCapital": {
+  },
+  "freighterSmall": {
+  },
+  "freighterMedium": {
+  },
+  "freighterLarge": {
+  },
+  "tankerSmall": {
+  },
+  "tankerMedium": {
+  },
+  "tankerLarge": {
+  },
+  "personnelSmall": {
+  },
+  "personnelMedium": {
+  },
+  "personnelLarge": {
+  },
+  "linerSmall": {
+  },
+  "linerMedium": {
+  },
+  "linerLarge": {
+  },
+  "tug": {
+  },
+  "crig": {
+  },
+  "utility": {
+  },
+  "orbitalStationLowTech": {
+  },
+  "battlestationLowTech": {
+  },
+}

@@ -1,0 +1,66 @@
+{
+  "hullName": "test carrer",
+  "hullId": "UADE_Drone_Carrier_001",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/UAD_CarrerDrone.png",
+  "style": "ALVARIUM_DOCTRINE",
+  "height": 75,
+  "width": 75,
+  "center": [37.5, 37.5],
+  "collisionRadius": 51,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "XHAN_PlasteenArmor"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [21.5, 0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 4],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ALVARIUM_ENGINES"
+    },
+    {
+      "location": [-21.5, -4],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ALVARIUM_ENGINES"
+    }
+  ],
+  "bounds": [
+    -34, -14.5,
+    -11.5, -25.5,
+    33, -23,
+    33, 23,
+    -11.5, 25.5,
+    -34, 14.5,
+    -22, -0
+  ]
+}
