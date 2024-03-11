@@ -1,0 +1,31 @@
+{
+  "variantId": "UADE_PhaseDrone_001_assalt",
+  "hullId": "UADE_PhaseDrone_001",
+  "displayName": "Assalt",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "Xhan_bogul",
+        "WS0005": "Xhan_bogul",
+        "WS0006": "Xhan_bogul"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "Xhan_svech"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

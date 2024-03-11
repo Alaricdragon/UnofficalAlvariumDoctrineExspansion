@@ -1,0 +1,102 @@
+{
+  "hullName": "test P-Drone",
+  "hullId": "UDE_PhaseDrone_001",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/UAD_PhaseDrone.png",
+  "style": "ALVARIUM_DOCTRINE",
+  "height": 100,
+  "width": 100,
+  "center": [49, 53.5],
+  "collisionRadius": 55.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 48,
+      "angle": -0,
+      "locations": [10.5, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-8.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [-8.5, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 0,
+      "locations": [3, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -0,
+      "locations": [3, -27]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ALVARIUM_ENGINES"
+    },
+    {
+      "location": [-30, 0],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -2, 40.5,
+    -37, 9,
+    -37, 9,
+    -37, -9,
+    -37, -9,
+    -2, -40.5,
+    23, -43,
+    12.5, -17.5,
+    28.5, 0.5,
+    12.5, 17.5,
+    23, 43
+  ]
+}

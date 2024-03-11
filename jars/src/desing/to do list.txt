@@ -1,3 +1,35 @@
+the checklist for the BAR MINAMUM before i can play with this mod:
+1 capital
+    -theory
+the civ ships (1 cruser, 3 specalized drones)
+    -theory
+the advanced gunship destroyer drone.
+    -theory
+3 combat drones (carrer, P-Jump drone, defence drone)
+    -status:
+        carrer Drone: needs system
+        P-Jump Drone - needs system
+        defence Drone - not started
+1 bomber wing
+    -status:
+        weapon:
+            looks: started. I have a singe part of the gun down, and that's its bit old 'core' of the cun, that is green and lowly. looks like energy.
+                   I need to make that 'empty' when it fires, and make it glow when it is firing.
+                   I might put the 'barrel' inside of the craft maybe? who knows.........s,amds,d
+            implementation:
+            balance:
+        looks: started. i need more detail on the core maybe? but it should look fine from afar. maybe try to add some straps or something?
+        balance: theory
+    -notes: holy hell that was hard. pixel art is not my strong suit it would seem
+1 large E weapon
+    -theory
+code:
+    a system to spawn in ships with this method.
+    a system to stop ships from being spawned in with this method.
+things i would like to have:
+a second capital (for a second set of drone ships.)
+a high tech station re-skin (with maybe some vill fighter bays on secondary parts)
+
 notes:
 	I have started to look at what is required to start to produce ships. and im going to be honest: the battleship i want makes me nervus.
 	as a result, i think im going to need to do 2 things:
@@ -121,7 +153,7 @@ drones:
 			system: limited P - Jump.
 	frigates:
 		a): carrier drone.
-			status: not started. in notebook.
+			status: in game. needs to change system and restat ship
 			carrier drone.
 			1 fighter bay. (0 vill)
 			1 SEM?
@@ -160,7 +192,7 @@ drones:
             1 - 3 SEM.
             system: EMP arc emitter.
         h) P-Jump drone
-            status: not started.
+            status: in game. needs to restat and change system.
             P-Jump Drone.
             4 SEM.
             system: limited phase jump
