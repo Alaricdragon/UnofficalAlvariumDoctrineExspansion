@@ -1,0 +1,22 @@
+{
+  "variantId": "UADE_BomberFighterDrone_001_Beam",
+  "hullId": "UADE_BomberFighterDrone_001",
+  "displayName": "Bomber_Temp",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "UADE_Bomber_beem_000"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,41 @@
+{
+  "hullName": "FighterTEmp",
+  "hullId": "UADE_BomberFighterDrone_001",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/UADE_BomberFighterDrone_001.png",
+  "style": "ALVARIUM_DOCTRINE",
+  "height": 24,
+  "width": 40,
+  "center": [20, 12],
+  "collisionRadius": 20,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ALVARIUM_ENGINES"
+    }
+  ],
+  "bounds": [
+    -7.5, -19,
+    9, -0,
+    -7.5, 19
+  ]
+}

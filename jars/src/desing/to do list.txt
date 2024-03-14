@@ -1,3 +1,7 @@
+questions:
+1) when putting a single charged beam weapon on a fighter with the 'bomber' 'role', how do i make said fighter point straight at the target until the beam is done firing? as is, they try to turn before its done and that's no fun.
+2) with a weapon, is there a way to have it look different when it has charges / has no charges? and if so, can you please show me a example so i can attempt to mimic it?
+
 the checklist for the BAR MINAMUM before i can play with this mod:
 1 capital
     -theory
@@ -8,16 +12,16 @@ the advanced gunship destroyer drone.
 3 combat drones (carrer, P-Jump drone, defence drone)
     -status:
         carrer Drone: needs system
-        P-Jump Drone - needs system
+        P-Jump Drone - system done.
         defence Drone - not started
 1 bomber wing
+    -Notes:
+        - i dont like the implmentation of the lazar. maybe try something like the gatalen lance? or the boogle blaster?
     -status:
         weapon:
-            looks: started. I have a singe part of the gun down, and that's its bit old 'core' of the cun, that is green and lowly. looks like energy.
-                   I need to make that 'empty' when it fires, and make it glow when it is firing.
-                   I might put the 'barrel' inside of the craft maybe? who knows.........s,amds,d
-            implementation:
-            balance:
+            looks: done. i might need to splice off parts of the drone to make way for the wepon though.
+            implementation: it exists. I hate the gun. the lazar is so BORRING! I might change it for something more like a gatalin lazzar maybe?
+            balance: null
         looks: started. i need more detail on the core maybe? but it should look fine from afar. maybe try to add some straps or something?
         balance: theory
     -notes: holy hell that was hard. pixel art is not my strong suit it would seem
@@ -27,7 +31,9 @@ code:
     a system to spawn in ships with this method.
     a system to stop ships from being spawned in with this method.
 things i would like to have:
-a second capital (for a second set of drone ships.)
+a second capital (for the advanced gunship.) with the remote plasma shield ability
+a cruiser or destroyer (for the P-jump drone) with the phase recall ability
+
 a high tech station re-skin (with maybe some vill fighter bays on secondary parts)
 
 notes:

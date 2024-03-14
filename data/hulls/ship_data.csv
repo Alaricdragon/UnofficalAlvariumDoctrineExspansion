@@ -1,3 +1,9 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#frigets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 test carrer,UADE_Drone_Carrier_001,Drone Carrer,Alvarium Doctrine,XHAN_PhaseHop,7,1100,225,800,1875,130,35,1,180,150,150,85,180,200,FRONT,,60,0.4,1,,,0,0,30,20,1,20,11,5000,10,20,260,0.20,2,2,HIDE_IN_CODEX,,,0.5,2,2,4
-test P-Drone,UADE_PhaseDrone_001,Phase Drone,Alvarium Doctrine,phaseteleporter,5,1100,225,800,1875,130,35,0,180,150,150,85,180,200,FRONT,,95,0.4,1,,,0,0,30,20,1,20,11,5000,10,20,260,0.20,2,2,HIDE_IN_CODEX,,,0.5,2,2,4
+test P-Drone,UADE_PhaseDrone_001,Phase Drone,Alvarium Doctrine,UADE_phaseteleporterlimited,5,1100,225,800,1875,130,35,0,180,150,150,85,180,200,FRONT,,95,0.4,1,,,0,0,30,20,1,20,11,5000,10,20,260,0.20,2,2,HIDE_IN_CODEX,,,0.5,2,2,4
+#destroyers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#crusires,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#capitals,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bomber_temp,UADE_BomberFighterDrone_001,,Alvarium Doctrine,,,190,65,350,,100,0,,180,500,450,180,360,18,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,102

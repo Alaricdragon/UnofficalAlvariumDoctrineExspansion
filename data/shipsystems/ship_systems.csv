@@ -1,0 +1,6 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+#Fortress Shield,fortressshield,,,0.025,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+Phase Teleporter,UADE_phaseteleporterlimited,,,,,,,,2,0.03,0.5,0,0.5,15,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+#Phase Skimmer,displacer,,,,,,,,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+#Point Defense Drones,drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+#Recall Device,recalldevice,,,,,,0.5,,,,0.5,,0.5,30,,,,,,,,,,,,,graphics/icons/hullsys/recall_device.png
