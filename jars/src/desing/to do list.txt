@@ -12,7 +12,7 @@ the advanced gunship destroyer drone.
 3 combat drones (carrer, P-Jump drone, defence drone)
     -status:
         carrer Drone: needs system
-        P-Jump Drone - system done.
+        P-Jump Drone - need to rebalance stasts.
         defence Drone - not started
 1 bomber wing
     -Notes:
@@ -60,6 +60,9 @@ notes on fighters:
     if i want the weapon on the fighter to be visible, i should make it a not 'hidden' weapon. if not, i should most certainly not do that.
 
 data on the fleet doctrine:
+NOTE: I might modify this group into something of my own design, so i may have more control over the design specs. still heavily inspired by the xhan empire, but something my own as well.
+      also, something more in line with my 'skill level'.
+
 right now, in the base Xhan empire mod, there is 2 destentct 'groups' of ships: drones, and hiveships.
 hiveships provide a luggistic and fighter support role.
 drones provide the core of the front line combat units.
@@ -218,10 +221,22 @@ wepons:
         description of shot: a shot of green plasma, that on landing explodes into a clowed of fragmentation damage plasma
     LB:
     LM:
+        warp cannon swarm missle
+        damage: mid - low
+        range: mid
+        tracking: very low.
+        ammo: like 10 - 20?
+        description: goes towards the target, as it moves, releases warp cannon missiles that target the selected target if in P-Teleport range, and if not, just target whatever enemy is closest.
 
     ME:
     MB:
     MM:
+        warp cannon cluster missle
+        damage: mid - low
+        range: mid
+        tracking: average.
+        ammo: like 3 - 5?
+        description: goes towards the target, then splits into a group of warp cannon missiles that all target the target at the same time, from different angles.
 
     SE:
         fighter strike beam
@@ -237,8 +252,16 @@ wepons:
         ???repair missile:
         damage: negitive mid.
         range: mid
-        tracing: exsalent
+        tracking: exsalent
+        ammo: ??
         description: would go towards the targeted friendly unit, or if a enemy was targeted, would try to find a damaged friendly unit instead. can target self.
+
+        ???warp cannon missle: (note: this missle is a teleporting energy wepon, not like, the in game warp cannon that omega uses.)
+        damage: mid - low
+        range: mid
+        tracking: special:
+        ammo: 10?
+        description goes tords the target with 'good' tracking. when close enouth (P-teleport range), teleports to the side / back of the target, and fires a single energy shot at the craft (after like 1.5 seconds, so it can be shot down)
 
 
 fighters:
@@ -252,6 +275,15 @@ fighters:
             hull: low
             ability: none.
             weapon: 1 fighter strike beam
+        (probably not, would be boring to just teleport a missile with a fighter)warp missile bomber:
+            size: 3 - 6?
+            crew per fighter: 0
+            opp: mid
+            speed: mid-fast
+            shield: front shield with ok strength
+            hull: low
+            ability: none.
+            weapon: 1 warp cannon missile (1 ammo)
     fighters:
     interceptors:
     other:
@@ -266,6 +298,7 @@ fighters:
             ability: none.
             weapon: 1 repair beem
             -this ship would attack friendly units with a beam, that would resore said ships hull ponits (not armor, that OP as flip)
+
 
 
 systems:
