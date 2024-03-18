@@ -1,6 +1,52 @@
-questions:
-1) when putting a single charged beam weapon on a fighter with the 'bomber' 'role', how do i make said fighter point straight at the target until the beam is done firing? as is, they try to turn before its done and that's no fun.
-2) with a weapon, is there a way to have it look different when it has charges / has no charges? and if so, can you please show me a example so i can attempt to mimic it?
+issues:
+    issues with what im doing:
+        1) currently, im simply copying xham empiers Alvarium Doctrine style. this is....
+            I like the style, but its alsmost sufacating. i can barly manage this style, and i want to move outside.
+            there are some truely wonderfull ships i have seen, that i would love to kinda 'mimic'. some styles i would like to learn from.
+            I could also use infermation like this to help me build my own style of craft. this could be incredibly helpful
+            -issues with this:
+                1) I would require replacements for ALL wepons (2 small E, 2 mid E) from the ships im copying.
+                2) I would require my own cruser and destroyer class hiveships, and my own drones as well.
+                    (3 drones, 2 hiveships) to meet my minamum requirements.
+                3) I would have to build up a new style from scratch. and i would need to do a lot fo things to get this working...
+            -advantages with this:
+                1) i could find a style that i am both able to do, and is aseptically pleasing.
+
+new fleet design:
+    a new fleet design is now required.
+    lets take the things i like about xhan empires alvarium docturing:
+    remove the things i dont like:
+        -the over complecated and almost messy way that the hull is detailed (the curves being a mess)
+        -the green outer armor (but only sometimes. i love it on the larger ships, but it looks messy sometimes).
+        -the green armor on the -outside- of the ships??
+    and add some more things i like:
+        -the engin phum
+        -the green name
+        -the grey armor colar (although maybe a little tint of green in it?)
+        -the preference of green in there desing (but not being all green)
+        -the bridges (for both drones and not drones.)
+
+        -the energy wepons.
+        -the 'vill' fighters concept
+        -the forward facing hanger bays (for the 'vill' fighters).
+        -the idea of tiny drone ships and making them out of organics.
+    things i dont like about -that- ship: (being the one on the discord page about graphics lib)
+        no engins =(
+            -although, it looks very sexy on that ship, with its little waves of motion. god it looks good. but not for me here. it would not fit the desing.
+             thats for something really scary, and not just a line ship.
+    things i like about -that- ship:
+        the more simple hull desing (for details) looks less messy.
+        the layered looking armor.
+        the green lights in the hull.
+        the way the wepons seem to be indented a little into the hull, as apposed to on top of it.
+        the colar of the main hull (like steel)
+
+    so combining that, i get the following i need to do:
+        1) pick a color pallet (for hull, weapons, glows, exsta) (should do the hull first. i want something steal, but slightly green....)
+        2) redesign all my ships (AAAAAAAAAAAAAAAAAAAAAAAA)
+        3) build my own weapons and effects (I can use xhans for now, but i need to not have that).
+        4) build my own special hull mod (like 'organic hull' or something, but what would it do? make me reselect to emp? like what?? I need to reserch a little...)
+
 
 the checklist for the BAR MINAMUM before i can play with this mod:
 1 capital
@@ -110,6 +156,8 @@ hangers:
 	    on the front of the craft, always. also, sourounded by unarmerd sectrions. tend to be semetrical. built into the craft, built so the hanger entrence is on the very edge of the outline of the craft.
 	drone:
         as drone desinges can differ from hiveships, i can be more creative here. but proboly should not, as doing so can cause me some issues latter, because the ships wont look like one group.
+    possibility:
+        hangers for vill fighters face forward. hangers for not vill fighters face backwards. this could emphasise how the front hangers are for economy reasons.
 groves:
     hiveship:
         on the innor grew parts of the ship, there are a lot of, 'groves'. it took forever for me to realize what they are..
@@ -120,6 +168,41 @@ groves:
         --
 ships i want:
 hiveShips:
+    dreadknoughts:
+        b): the warp hive fleetship.
+            status: null
+            multi seconnal ship. the following sections:
+            1) main section
+                description: the one you pillot. includes the core of the craft, and the engines (that would therefore be exposed to attacks.)
+                ability: P-Teleport. 2 charges.
+                mounts: lots of E side mounts, so i could make the ship brodside
+                hangers: none.
+                shield: maybe a omi shield? but probably not...
+                . . also, would have energy mounts organized like a conquest, to encourage broadsides.
+            2) left side
+                description: the side of the ship. would be a outer section.
+                ability: maybe remote plasma shield? some type of support?
+                mounts: lots of side E mounts. some missles.
+                hangers:2 or 3 facing the side.
+                shield:front shield (facing the side of the craft overall)
+            3) right side.
+                description: --
+                ability: --
+                mounts:--
+                hangers:--
+                shield:--
+            4) left front
+                description:
+                ability: reserve deployment
+                mounts: 1 large E or M mount, then some small E for PD?
+                hangers: 6 vill fighter bays
+                shield: front shield, facing in such a way it covers itself, when linked with other shields.
+            5) right front.
+                description: --
+                ability: --
+                mounts: --
+                hangers: --
+                shield: --
 	capitals:
 		a): the hive carrier.
 			status: started. in notebook.
@@ -160,6 +243,12 @@ drones:
 			gunship.
 			3 MEM, 2? SEM.
 			system: limited P - Jump.
+        b): carrier drone
+            note: this is to act as a replacement for the frigate sized carrier drone. because its 2 small and i dont like that.
+            status: theory.
+            2 fighter bay (0 vill)
+            3 SEM, 1 SMM
+			system: slow recall, or targeting feed, or time warp
 	frigates:
 		a): carrier drone.
 			status: in game. needs to change system and restat ship
@@ -226,7 +315,7 @@ wepons:
         range: mid
         tracking: very low.
         ammo: like 10 - 20?
-        description: goes towards the target, as it moves, releases warp cannon missiles that target the selected target if in P-Teleport range, and if not, just target whatever enemy is closest.
+        description: goes towards the target, as it moves, releases warp cannon missiles that target the selected target if in P-Teleport range, and if not, just target whatever enemy is closest. when it hits the target, it does damage equal to ((warp cannon missles damage remaining + 2) / 2).
 
     ME:
     MB:
@@ -256,12 +345,20 @@ wepons:
         ammo: ??
         description: would go towards the targeted friendly unit, or if a enemy was targeted, would try to find a damaged friendly unit instead. can target self.
 
-        ???warp cannon missle: (note: this missle is a teleporting energy wepon, not like, the in game warp cannon that omega uses.)
+        warp cannon missle: (note: this missle is a teleporting energy wepon, not like, the in game warp cannon that omega uses.)
         damage: mid - low
         range: mid
         tracking: special:
         ammo: 10?
         description goes tords the target with 'good' tracking. when close enouth (P-teleport range), teleports to the side / back of the target, and fires a single energy shot at the craft (after like 1.5 seconds, so it can be shot down)
+
+        EMP arc emiter missile:
+        damage: special
+        range: mid
+        traking: ok
+        ammow: 2 or 3?
+        description: a normal missle, but when it hits a targets structure, it sticks, and releases 10 100 damage EMP arcs around itself (hitting the ship it hit and surrounding ships)
+                                      but when it hits a targets shields, it sticks to said shield, and emits its arcs from there.
 
 
 fighters:

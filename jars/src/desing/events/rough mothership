@@ -1,0 +1,67 @@
+rough mothership event
+this even will envolve my dreadnought, and a hidden econamy system based around it. here is how it will work:
+varubles:
+    tech:
+        tech is a list of all 'unlocked' tech.
+    fleet strength:
+        fleet strength is the number of DP the mothership can produce in other ships
+    failed raids:
+        a list of all times a raid failed, the system said raid was in, and how mush more DP then the defenders the mothership will want to braing next time.
+stage 1:
+    in stage 1, the mothership will hide in a system with lots of oganics and mine them. this will build up fleet strangth.
+    will also spend fleet strength to send out miners to mine organics from other worlds in system if they exsist.
+    will also spend fleet strength to send out miners to mine organics form other systems, if they are close enough and the appropriate tech is unlocked.
+
+    during this stage, after 3 - 12 months, the mothership will random chose a target.
+        targets with more possable tech to unlock will be more likely. (tech not unlocked * rarity)*1
+        targets the mothership has already targeted will be less likely '-1 per planet that it tried to raid in the past'
+    once the mothership has enouth fleet strangth to attack the world (targets fleet defences, + 20%) or (max(targets fleet defences,last raid strangth)+ 20% + (20%* number of failed raids on this system))
+    it will recall all miners to itself, regaining DP equal to the surviving miners. once all miners are recalled
+    it will 'warp' directly into the system (really long range transverse jump)
+
+stage 2:
+    in stage 2, the mothership will start to attack the system it was warped into. attempting to raid all worlds in system. this will have the following effects:
+    1) a - accsessability and stability to all hostile worlds in system, so long as the raid continues.
+    2)the mothership will spwan, and attempt to maintain a number of fleets.
+        -said fleets will attmpt to raid planets not yet raided in this attack.
+        -some of said fleets will attempt to protect the mothership (20% of them)
+        -every fleet will cost 'fleet strangth' to deploy.
+    the mothership will have the following stats, determing if it will retreat or not:
+        tiredness
+            tiredness will start at 0, and will be caped to fleet strength*0.4
+            if tiredness reaches its cap, the mothership will emedeantly recall all its ships and attempt to warp out, going back to stage 1
+            every time a ship is lost, it will gain tiredness equal to the DP of the lost ship(s)
+            every time tiredness surpasses a threshold (20%,40%,60%,70%,80%,90%,92%,94%,96%,98%) the mothership will compair to its own moral %. if moral is < then tiredness, the mothership will recall its forces, warp out and return to stage 1
+        moral
+            moral will start at zero, and will go up by a amount every time a planet is raided. (with the following EQ):
+                -(planet_size * faction_tech_modifier * percentage_of_techs_not_yet_gotten_from_this_faction)
+            moral is caped at:
+                -the max number of moral you can gain by raiding planets.
+    if the mothership is disabled, it will emedeantly retreat and teleport out of system, leaving all its forces behind, losing 1/2 of its remaining fleet strength, lossing a S-Mod, and gaining a D-Mod. also possible for it to lose a tech at random
+    if the mothership or its forces successfully raid all hostile worlds in system (that the mothership can still get tech from (or get otherthings if that's a thing i do)) It will retreat, gaining a S-Mod at random, recalling its forces and returning to stage 1.
+
+
+
+tech:
+    tech will be decided into raritys, with each one being worth a certen amount of ponits, based on 'rarity'.
+        -this eq is 1.5^rarity
+    every faction will have a list of possible techs that can be raided.
+        -if that list is existed completely, it will switch to 'genearic' techs.
+    whenever a planet is raided it will run the following calculation, to determine what tech level progress is made for:
+        planet size * (cost of industry / 1,000,000) * ruins modifier
+        after being raided, the mothership will gain tech 'ponits' to a random rarity of tech
+            -the odds for each tech rarity is 'number of techs left in that rarity' (that can be gotten from this faction) (including generic ones)
+
+    possable tech that i could have:
+        eco techs:
+            -more fleet strangth from mineing
+            -fleet strength if i raid a world with organics
+            -ability to warp all miners back to the mothership before a raid.
+            -ability to warp combat ships back to the mothship during a raid (for retreating)(provided the ship is not disabled)
+            -ability to gain a small amount of fleet strength from destroyed ships (DP destroyed / 10)
+        ships and wepons:
+            -giving the mothership new ships to spwan, and new wepons to create seems like a cool idea.
+        hullmods:
+            -things like exsotic hullmods
+        abilitys:
+            -i dont fucking know....

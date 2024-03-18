@@ -1,0 +1,116 @@
+new fleet design:
+    a new fleet design is now required.
+    lets take the things i like about xhan empires alvarium docturing:
+    remove the things i dont like:
+        -the over complecated and almost messy way that the hull is detailed (the curves being a mess)
+        -the green outer armor (but only sometimes. i love it on the larger ships, but it looks messy sometimes).
+        -the green armor on the -outside- of the ships??
+    and add some more things i like:
+        -the engin phum
+        -the green name
+        -the grey armor colar (although maybe a little tint of green in it?)
+        -the preference of green in there desing (but not being all green)
+        -the bridges (for both drones and not drones.)
+
+        -the energy wepons.
+        -the 'vill' fighters concept
+        -the forward facing hanger bays (for the 'vill' fighters).
+        -the idea of tiny drone ships and making them out of organics.
+    things i dont like about -that- ship: (being the one on the discord page about graphics lib)
+        no engins =(
+            -although, it looks very sexy on that ship, with its little waves of motion. god it looks good. but not for me here. it would not fit the desing.
+             thats for something really scary, and not just a line ship.
+    things i like about -that- ship:
+        the more simple hull desing (for details) looks less messy.
+        the layered looking armor.
+        the green lights in the hull.
+        the way the wepons seem to be indented a little into the hull, as apposed to on top of it.
+        the colar of the main hull (like steel)
+
+    so combining that, i get the following i need to do:
+        1) pick a color pallet (for hull, weapons, glows, exsta) (should do the hull first. i want something steal, but slightly green....)
+        2) redesign all my ships (AAAAAAAAAAAAAAAAAAAAAAAA)
+        3) build my own weapons and effects (I can use xhans for now, but i need to not have that).
+        4) build my own special hull mod (like 'organic hull' or something, but what would it do? make me reselect to emp? like what?? I need to reserch a little...)
+        5) move all ship designs into this file.
+        6) create a new 'vill' fighter. try not to just copy xhan empire please.
+
+so the ships basic desing: (keep in mind: there are differences between droneships and hive ships)
+    bridge:
+        hive ship:
+            I like the flat green dots around a center part of the craft it. looks good. Hopefully no one accuses me of plagerisum if i do that...?
+        drone ship:
+            I like the small little 'bumps' at the front of the ship. I really like them. but i need to change them somehow....
+    engines:
+        hive ship:
+            remember: engines tend to be connected to the rest of the hull with -multiple- methods. its not enough to -just- have it be partly hidden in the hull...
+            or is it? its what the xhan empier ships did. although there engines were very complecated. so i might be in a bit of a pickle here...
+            mmmm
+        drone ship:
+            --
+    shape:
+        the Alvarium docturoms shap was curvey. very mush so. there were no hard lines anywere.
+        that was ok, but lets do something diffrent:
+            1) let there be hard lines instead of curves.
+            2) lets there be curveys over longer parts of the ship (to stop it looking like stright lines everywere)
+
+            now the stillhouse: I do have a few drawn in my notbook, that have a function simaler to waht i describe....
+        hive ship:
+        drone ship:
+    hull:
+        mmmmmmmm
+        I like the overlaping plates. how do i handle this...
+        in the MP4 i downloaded, that ships overlapping plates are all the same base color. its just shading that changes the way it all looks.
+        im going to try to manage that. that type if shading. it will be hard, but no were near as hard as Alvarium doctoring.
+        hive ship:
+        drone ship:
+    outer hull:
+        ....
+        hive ship:
+        drone ship:
+    weapons slots:
+        I like the concept of the weapons being indented in my hull.
+        I like it a loot. in fact, i like it so mush im going to try and do it.
+        E:
+            S:
+            M:
+            L:
+        M:
+            most missiles in the game are not turrets, but are rather hard ponits on the edges of a ships hull. should i keep that up?
+            S:
+            M:
+            L:
+        B: (there might be no B - weapons)
+    weapons:
+        NOTE: this is general design. not exact ways how the weapons must look.
+        E:
+            S:
+            M:
+            L:
+        M:
+            S:
+            M:
+            L:
+    hanger bays:
+        construction ships:
+            I would still like them to face forwards, at somewhere around the center of the ships front. this
+            will let it look more like something more civilian, and not combat (why have fighter bays exposed like that.)
+        not construction ships:
+            make there hangers be more 'inside' the hull (still at the edges). also make them be more turds the back of the ship, and face backwards.
+            this marks a clear difference between construction hangers and military ones.
+
+    size differences:
+        capital:
+            hive ship:
+            drone ship:
+        cruiser:
+            hive ship:
+            drone ship:
+        destroyer:
+            hive ship:
+            drone ship:
+        frigate:
+            hive ship:
+            drone ship:
+
+
