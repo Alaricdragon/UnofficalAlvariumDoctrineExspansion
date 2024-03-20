@@ -34,7 +34,14 @@ new fleet design:
         4) build my own special hull mod (like 'organic hull' or something, but what would it do? make me reselect to emp? like what?? I need to reserch a little...)
         5) move all ship designs into this file.
         6) create a new 'vill' fighter. try not to just copy xhan empire please.
-
+            -names: assembly drone?
+            bio-constructor?
+            bio-assembler?
+        7) rename hiveships to:
+            bio-constructor ships?
+            bio-forge ships?
+        8) rename the avlarium docturing to:
+            ????
 so the ships basic desing: (keep in mind: there are differences between droneships and hive ships)
     bridge:
         hive ship:
