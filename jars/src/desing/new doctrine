@@ -121,3 +121,38 @@ so the ships basic desing: (keep in mind: there are differences between droneshi
             drone ship:
 
 
+
+
+ships:
+        capital:
+            hive ship:
+            drone ship:
+        cruiser:
+            hive ship:
+            drone ship:
+        destroyer:
+            hive ship:
+            drone ship:
+        frigate:
+            hive ship:
+            drone ship:
+                phase drone: (started)
+                    so i have started this ship.
+                    I like the way the armor plates look.
+                    I like the way the bride looks.
+                    i think it looks fucking good.
+                    what i need to do:
+                        1) add wepon sloots.
+                            im thinking, 2 side weapons, 2 forward weapons? but then i have no points for PD?
+                            maybe 2 side PDs, and 3 forward hard ponits? thats 5 guns though....
+                        2) add engions:
+                            this is going to go on the back of the core, and partly under the armor if i can manage that...
+                        3) shape the edges of the craft
+                            the edges of the craft are blocky as flip right now. i need to do something about this.
+                        4) add armor plates on the armor
+                            right now, the armor is not very interesting. adding some 'plate' looking structures onto the wings might help...
+                        5) add other detailes:
+                            small lights.
+                            pipes?
+                            wire
+                            other things...
