@@ -147,6 +147,9 @@ ships:
                             maybe 2 side PDs, and 3 forward hard ponits? thats 5 guns though....
                         2) add engions:
                             this is going to go on the back of the core, and partly under the armor if i can manage that...
+                            ok, i looked at some relevant information:
+                            the green glow i want on my engion is managed by the game itself. so there is no need to create green into the code.
+                            I still need to decide how the engines are going to look though....
                         3) shape the edges of the craft
                             the edges of the craft are blocky as flip right now. i need to do something about this.
                         4) add armor plates on the armor
