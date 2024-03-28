@@ -71,7 +71,7 @@
     {
       "location": [-30, -0],
       "length": 30,
-      "width": 10,
+      "width": 100,
       "angle": 180,
       "contrailSize": 30,
       "style": "CUSTOM",
