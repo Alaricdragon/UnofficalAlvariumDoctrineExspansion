@@ -1,4 +1,4 @@
-NAME: biological drone foundry? organic drone foundry? I need something....
+NAME: Consorcium Synthesis Organici
 names:
     faction:
         English:                                Latin                               Latin2
@@ -53,11 +53,20 @@ new fleet design:
         8) rename the avlarium docturing to:
             ????
 so the ships basic desing: (keep in mind: there are differences between droneships and hive ships)
+    cores:
+        cores are rather detect. they are basically a big glowing green thing on my craft.
+        they have wires connecting them to all the other parts of my craft. like 'wpeons' and 'engions'
+        issues. on drone ships, my 'core' is acting as a bridge. this might not be wize, if i plan on having the big center core on all my ships?
+        possability: on hive ships, give them more 'smaler' cores, on the sides of the craft, well holding a bridge were the core normaly is on the drone craft?
+        hive ship:
+            multible smaller cores, on the sides of the ship.
+        drone ship:
+            one big center 'core' i like the way it works.
     bridge:
         hive ship:
             I like the flat green dots around a center part of the craft it. looks good. Hopefully no one accuses me of plagerisum if i do that...?
         drone ship:
-            I like the small little 'bumps' at the front of the ship. I really like them. but i need to change them somehow....
+            the droneships 'core' dubbles as a 'bridge' for now...
     engines:
         hive ship:
             remember: engines tend to be connected to the rest of the hull with -multiple- methods. its not enough to -just- have it be partly hidden in the hull...
@@ -146,26 +155,148 @@ ships:
         frigate:
             hive ship:
             drone ship:
+                'blink' drone.
+                    tiny, 3 SE wepon drone ship.
+                    a very low recharge, 1 charge, P-Teleport system.
+                    consept: this tiny, kinda terrable drone, can be outfitted with diffrent built in mods, depending on how its built.
+                    the mods could effect its P-Teleport system, giving it charges, or reducing colon. anything really.
+                assault drone:
+                    so, 1 ME wepons, forwards, one SE wepons, omi.
+                    give it some type of weapons system as its ship system (like the 'advanced P-Teleporter weapons system'). maybe a missle as well, if its good.
+                    think its system should be one that increases projectile speed and maybe? attack speed.
                 phase drone: (started)
                     so i have started this ship.
                     I like the way the armor plates look.
                     I like the way the bride looks.
                     i think it looks fucking good.
-                    what i need to do:
-                        1)(done) add wepon sloots.
-                            im thinking, 2 side weapons, 2 forward weapons? but then i have no points for PD?
-                            maybe 2 side PDs, and 3 forward hard ponits? thats 5 guns though....
-                        2)(started) add engions:
-                            this is going to go on the back of the core, and partly under the armor if i can manage that...
-                            ok, i looked at some relevant information:
-                            the green glow i want on my engion is managed by the game itself. so there is no need to create green into the code.
-                            I still need to decide how the engines are going to look though....
-                        3)(started) shape the edges of the craft
-                            the edges of the craft are blocky as flip right now. i need to do something about this.
                         4)(not done. not needed????) add armor plates on the armor
                             right now, the armor is not very interesting. adding some 'plate' looking structures onto the wings might help...
-                        5)(not started yet.) add other detailes:
+                        5)(done?) add other detailes:
                             small lights.
                             pipes?
                             wire
                             other things...
+
+
+
+
+systems:
+    notes:
+        the idea behind systems that effects 'others', is that support ships would gain such ability, then use them on different ships in combat to improve there ability.
+        also note: i have built 3 'other' system basic desings now, and they follow a them. so im going to run down the list of ability i have thought about giving my units with said ability here instead
+            1) plasma jets
+            2) high energy weapons
+            3) some type of time warp (for real, there is no way i can balance something like -that!-)
+            4) high recharge weapons (like automated ammo feeder, but for energy weapons)
+            5) ability to give ships a charge of phase hop.
+            6) putting a friendly unit in phase for a few seconds.
+    mobility systems:
+        self:
+            -example
+                description:
+                targeting:
+                strength:
+                cost:
+                range:
+                duration:
+                cool down:
+                recharge:
+                charges:
+                mechanics:
+            -limited phase jump
+                description:a phase jump
+                targeting:  same as phase jump (mouse for target jump ponit, target for target direction)
+                strength:   NA
+                cost:       some hard flux maybe?
+                range:      long range
+                duration:   1.5 seconds (to complete the jump)?
+                cool down:  lone (maybe 2x as long as normal phase jump)
+                recharge:   same as cooldown, or NA
+                charges:    2 or NA
+                duration:   NA
+                mechanics:  a simple phase jump. but green (like the phase hop system)
+        others:
+            -phase recall:
+                description: a recall system, like phase jump
+                targeting: only targets friendly ships. targets ships that are overloading, then ships with low HP but are in combat, then none.
+                           maybe restrict targets to destroyer or smaller?
+                strength: NA
+                cost:     some hard flux for the ship
+                range:    long
+                duration: 1.5 seconds (same as limited phase jump)
+                cool down: long
+                recharge:  --
+                charges:   NA or 2
+                mechanics: would teleport the target ship next to this ship, in a empty space. best used with backline ships, like carrers
+    offencive systems:
+        self:
+            -advanced P-Teleporter weapons system
+                description: energy weapons are P-Teleported around the enemy ship, hitting from many angles
+                targeting: targets one enemy
+                strength: NA
+                cost: weapons generate hard flux?
+                range: about 600/800/1000/1200?
+                duration: 3 seconds?
+                cool down: 5 seconds
+                recharge: 10 seconds
+                charges: 3
+                mechanics: for the duration, every shot fired from this ships energy weapons will not leave the barrel of the gun, and instead will appear 200su away from the targets collision circle, at a random position around the craft. every shot fired this way will fire turds the craft.
+                           can be deactivated at any time.
+            -P-Teleporter weapon system
+                description: energy weapons fired from this craft use an advanced phase skimmer to allow the shots to travel to there target, instantly
+                targeting: self
+                strength: NA
+                cost: weapons generate 50% more flux?
+                range: NA
+                duration: 1 seconds
+                cool down: 2 seconds
+                recharge: 5 seconds
+                charges: 3
+                mechanics: when active, any energy wepons fired from the craft will 'hit scan', and if a target is found, will hit it instead of firing from the barrel.
+
+            -Time warp wepons system
+                description: useing a advanced targeting system, lets projectiles go fast fast fast.
+                targeting:NA
+                strength:NA
+                cost:energy weapons generate 50% more flux
+                range:NA
+                duration:2 seconds
+                cool down: 3 seconds
+                recharge: 5 seconds
+                charges: 3
+                mechanics: increases projectile speed by 4X.
+
+        others:
+    defencive systems:
+        self:
+        others:
+            -remote plasma shield:
+                description: targets a friendly none fighter ship, and give it a sheild equal to  hit ponits, costing 500/
+                targeting:  would target other ships (cant target self). would prioritize ships thar are overfluxed or close, then ships fighting with low HP, then ships in combat. would prefer smaller ships when a chose is given. would be used less and less as the ship gains flux, and more when flux is free.
+                strength:   1000/2000/4000/8000
+                cost:       500/1300/3200/7600. 1/2/3/4 charges.
+                range:      far, maybe 2k range
+                duration:   maybe 30 seconds?
+                cool down:  1
+                recharge:   5
+                charges:    8
+                mechanics:   a line of green will go to the target, and when it reaches said target, said ship will gain shield around them.
+                            said shield will have the following stats:
+                            1 damage efficiency.
+                            (power / time)*-1 flux desperation
+                            power flax capacity.
+                            360 degree arc
+                            when the shield is over fluxed, it will simple vanish.
+                            the negative flux desperation is to give the shield a fixed time limit on how long it can last.
+                            would cost 1 charge per ship size? (to make it valid to target larger ships, and smaller ones with)
+            -remote arc emitter:
+                description: give a friendly ship basic the arc emitter ability. will hit missles and other ships.
+                targeting:  friendly ships under missile fire, friendly ships in combat.
+                strength: 3/6/9/12 shots.
+                cost:     100/200/400/800 flux? 1/2/3/4 charges?
+                range:    long? maybe 1200su?
+                duration: maybe 10 seconds
+                cool down:1 seconds
+                recharge: 3 seconds
+                charges:  10
+                mechanics: would provide a modifier to a friendly ship, that lasts for duration. during this time, said ship will get the arc emitter buff. (effectively the arc emitter system). it would target nearby fighters and missiles and ships, doing damage and emp damage. once the charges are out, or the duration is exceeded, the buff would fade.

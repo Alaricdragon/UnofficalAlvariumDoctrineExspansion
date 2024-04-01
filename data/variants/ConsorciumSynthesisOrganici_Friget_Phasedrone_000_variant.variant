@@ -1,0 +1,32 @@
+{
+  "variantId": "ConsorciumSynthesisOrganici_Friget_Phasedrone_000_variant",
+  "hullId": "ConsorciumSynthesisOrganici_Friget_Phasedrone_000",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Xhan_bogul",
+        "WS0002": "Xhan_bogul",
+        "WS0004": "Xhan_bogul",
+        "WS0005": "Xhan_bogul"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "Xhan_svech"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

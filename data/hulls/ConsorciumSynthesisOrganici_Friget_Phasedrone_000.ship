@@ -1,0 +1,87 @@
+{
+  "hullName": "test p-drone 2",
+  "hullId": "ConsorciumSynthesisOrganici_Friget_Phasedrone_000",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ConsorciumSynthesisOrganici_Friget_Phasedrone_000.png",
+  "style": "ALVARIUM_DOCTRINE",
+  "height": 63,
+  "width": 96,
+  "center": [48, 31.5],
+  "collisionRadius": 52.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 61,
+      "angle": 0,
+      "locations": [4.5, 35]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 61,
+      "angle": -0,
+      "locations": [4.5, -35]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": 180,
+      "locations": [-13.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [23, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [23, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, -0],
+      "length": 30,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "ALVARIUM_ENGINES"
+    }
+  ],
+  "bounds": [
+    -25, -6.5,
+    -32, -18.5,
+    -19, -18,
+    0.5, -46.5,
+    13.5, -48,
+    17, -23,
+    32.5, -0,
+    17, 23,
+    13.5, 48,
+    0.5, 46.5,
+    -19, 18,
+    -32, 18.5,
+    -25, 6.5
+  ]
+}
