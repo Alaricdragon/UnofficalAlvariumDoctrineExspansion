@@ -155,6 +155,11 @@ ships:
         frigate:
             hive ship:
             drone ship:
+                eco drone set:
+                    give 2 SE mounts, on the sides. 230 arc. facing sideways.
+                    give lower overall flux, speed, hull, armor, shields, compared to other drone ships.
+                    give it a stranger shape. something i think... longer? that could be interesting for a eco ship. or maybe wider?
+                    mmmmmm
                 defence drone
                 small 3 SE wepon drone ship. 1 SS?
                 fortress shields.
