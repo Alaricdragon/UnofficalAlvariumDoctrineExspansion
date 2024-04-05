@@ -155,16 +155,24 @@ ships:
         frigate:
             hive ship:
             drone ship:
+                defence drone
+                small 3 SE wepon drone ship. 1 SS?
+                fortress shields.
+                2 back turrets. 200 angle. turned back and to the size, so they dont cover the very front, and the other side.
+                1 forward turret / hardponit? (or both?)
+                hullmods (built in):
+                    integrated PD systems (or whatever its called)
                 'blink' drone.
-                    tiny, 3 SE wepon drone ship.
+                    tiny, 1 SE, 2 SS wepon drone ship.
                     a very low recharge, 1 charge, P-Teleport system.
+                    1 SE back for PD. 2 SS forward hardponits. for conquest
                     consept: this tiny, kinda terrable drone, can be outfitted with diffrent built in mods, depending on how its built.
                     the mods could effect its P-Teleport system, giving it charges, or reducing colon. anything really.
-                assault drone:
+                assault drone (done. not implemented):
                     so, 1 ME wepons, forwards, one SE wepons, omi.
                     give it some type of weapons system as its ship system (like the 'advanced P-Teleporter weapons system'). maybe a missle as well, if its good.
                     think its system should be one that increases projectile speed and maybe? attack speed.
-                phase drone: (started)
+                phase drone: (done. might add more doge and burn latter)
                     so i have started this ship.
                     I like the way the armor plates look.
                     I like the way the bride looks.
