@@ -152,14 +152,30 @@ ships:
         destroyer:
             hive ship:
             drone ship:
+            'advanced' phase gunship
+                a new 'p-teleport' system that takes a moment to actavate. works like the one for P-drone.
+                3 forward ME mounts. (maybe have one be a sinergy hardponit)?
+                2 back SE mounts (for PD) (maybe make them reach with just enouth range to hit the front of the craft? no that goes against part of the weaknesses of the craft i have)
+                2 SE hardponits?
+                is this to mush firepower?????
+
         frigate:
             hive ship:
             drone ship:
-                eco drone set:
+                eco drone set (almost done. need vareants):
                     give 2 SE mounts, on the sides. 230 arc. facing sideways.
                     give lower overall flux, speed, hull, armor, shields, compared to other drone ships.
                     give it a stranger shape. something i think... longer? that could be interesting for a eco ship. or maybe wider?
                     mmmmmm
+                    so for the fuel variant, maybe instead of what im doing right now, i make many kinda 'rods' of fuel? that could be a idea.
+                    also, something to do, is bring ing the 'hull' around the fuel. make it so its more contained. mmmm
+                    in addition to that, the possobility exsists to add a hinda set of 'hatches' to the antimatter fuel storge.
+                    this would be less red, likely, but could be interesting none the less....
+                    ok, i tryed some tanks in the vanila style. and no. no no no no no no no.
+                    it looks terrable. it clashes to mush and runins the way the ship looks.
+                    I tryed a lot of things, and worked hard, but no.
+                    I think im going to need to create some containers instead, and then go from there. also, i really
+                    want to keep the 'shape' of the cargo areas. so i think im just going to make sure everything fits -tightly- into that little space.
                 defence drone
                 small 3 SE wepon drone ship. 1 SS?
                 fortress shields.
